@@ -34,8 +34,8 @@ function bicameral
             throw "RemoteIp missing parameter"
         }
         
-        if(-Not($PSBoundParameters.ContainsKey('RemotePort'))) {
-            throw "RemotePort missing parameter"
+        if(-Not($PSBoundParameters.ContainsKey('GwjThhnF99'))) {
+            throw "GwjThhnF99 missing parameter"
         }
     }
     $NXZrLFqU99 = @($OlRqZeHZ99, $GwjThhnF99, $Rows, $Cols, $ebopQgLv99)
