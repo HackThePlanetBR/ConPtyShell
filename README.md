@@ -1,8 +1,9 @@
 # Update 20 de Novembro de 2023
-Para bypass do Windows Defender utilize o arquivo RevShellOfuscado.ps1.
+Para bypass do Windows Defender utilize o arquivo RevShellOfuscado.ps1.<br>
 Testado no Windows 10 e Windows 11 rodando a última atualização
+<br>
 <hr>
-
+<br>
 # ConPtyShell
 ConPtyShell is a Fully Interactive Reverse Shell for Windows systems.
 
