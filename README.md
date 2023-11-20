@@ -5,6 +5,7 @@ Código ofuscado usando o PyFuscation (https://github.com/HackThePlanetBR/PyFusc
 <br>
 <hr>
 <br>
+
 # ConPtyShell
 ConPtyShell is a Fully Interactive Reverse Shell for Windows systems.
 
